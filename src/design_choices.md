@@ -15,30 +15,42 @@ The motor holders are 3d printed. These holders are glued to the bottom plate of
 The motors are 24V DC motors which have a low RPM. We chose for low RPM motors so we could have a controlled testing environment where breakage of the system is very unlikely. The motors are powered by a 24V power supply and are controlled with the PLC which was delivered by Saxion. \
 \
 Attached to the shaft of each motor is an attachment piece which holds the parts. This attachment is 3d printed using TPU plastic which is flexible. The reason for this is that the attachment acts like a spring so that when pressure is applied, the part gets pushed against the main body of the valve without the risk of breaking the attachment or motor. The attachment pieces are also designed to make up for any offset- or angular misalignments. 
-The attachment pieces are attached to the motor shaft with an air tight seal. This is possible because of the flexible plastic. I printed this with an infill percentage of 70%, with this the attachment is strong enough and also just flexible enough to be able to push it onto the motor shaft. Because of this the seal is air tight.
-•	The storage bridge
-o	The storage tubes
-o	3 inductive sensors.
-The storage bridge is also made from acryllic. It consist of 2 side plates and a top plate. Attached to the top of the storage bridge are 3 storage tubes which hold 3 different parts. The tubes are attached to the bridge using super glue. There are 3 inductive sensors which check if all the parts are in storage. 
-•	The air cylinder
-o	The pusher on the air cylinder
-o	Attachment pieces
-o	Throttle valve
-The air cylinder is a single-acting cylinder from Rexroth. It pushes the motor box underneath the storage bridge to load the parts onto the motor attachments. It is attached to one of the motor holders with a 3d printed pusher using nuts and bolts. The reason we are pushing the box instead of the bridge is because the bridge has a very high center of gravity which would cause that it would easily fall over if pushed.  The air cylinder is attached to a wooden base using 3d printed attachment pieces and screws. 
-The air cylinder has a threaded shaft. First the pusher was attached with a 3d printed thread this was later changed to a 3d printed pusher with a metal nut inside of it because the 3d printed thread could brake easily because of the force of the air cylinder. 
-•	The robot
-o	The grippers
-The robot and the grippers are used to pick up the main body of the valve and also to pick up the small ring and cylinder of the valve. The ring and cylinder are delivered to the robot using a storage plate which has chamfered cylinders, so that when the rings and cylinders are placed on top it is always centered. 
-•	Wooden plate
-Al of the parts are attached to a wooden plate using either screws or glue. 
-Improvements:
-The motor box and its parts
-1.	We recommend attaching the motors using screws for a more sturdy and secure attachment. 
-2.	The motor box currently has 3 walls and 1 open section. We recommend to have 2 open ends at the front and back because with the current system it is very difficult to wire the motors and attach the pusher. When changing this structural strength has to be carefully looked at. 
-3.	The attachments pieces are made only of TPU plastic. This plastic is pretty slippery. For improving the speed of the system, rubber should be added to the attachment pieces. When this is done you can probably test the system which motors that have a much higher RPM. 
-The storage bride
-1.	The storage bridge is currently attached to the wooden plate using glue. The bridge should be altered so that it is attached to the plate using screws. 
-2.	The storage tubes are also attached to the bridge using glue. This should definitely be changed since the parts are heavy. We recommend using nuts and bolts for the most secure attachment. 
+The attachment pieces are attached to the motor shaft with an air tight seal. This is possible because of the flexible plastic. I printed this with an infill percentage of 70%, with this the attachment is strong enough and also just flexible enough to be able to push it onto the motor shaft. Because of this the seal is air tight. \
+\
+•	The storage bridge \
+o	The storage tubes \
+o	3 inductive sensors. \
+The storage bridge is also made from acryllic. It consist of 2 side plates and a top plate. Attached to the top of the storage bridge are 3 storage tubes which hold 3 different parts. The tubes are attached to the bridge using super glue. There are 3 inductive sensors which check if all the parts are in storage. \
+\
+•	The air cylinder \
+o	The pusher on the air cylinder \
+o	Attachment pieces \
+o	Throttle valve \
+The air cylinder is a single-acting cylinder from Rexroth. It pushes the motor box underneath the storage bridge to load the parts onto the motor attachments. It is attached to one of the motor holders with a 3d printed pusher using nuts and bolts. The reason we are pushing the box instead of the bridge is because the bridge has a very high center of gravity which would cause that it would easily fall over if pushed.  The air cylinder is attached to a wooden base using 3d printed attachment pieces and screws. \ 
+The air cylinder has a threaded shaft. First the pusher was attached with a 3d printed thread this was later changed to a 3d printed pusher with a metal nut inside of it because the 3d printed thread could brake easily because of the force of the air cylinder. \
+\
+•	The robot \
+o	The grippers \
+As a group we came up with the idea to use a gripper which is mounted on the head of the robot to pick up the little parts, but more important also pick up the valve itself without all the parts which have to be screwed on. The idea was to clamp the valve inside the gripper with designed brackets which slides on the provided gripper and fit tight around the valve, so when the gripper is closed it is fixated. The original idea was to put all the caps which have to be screwed on in a bracket where the robot moves toward and after that the head of the robot should be rotated and moved down a little bit, so the valve will screw itself on the cap, instead of the other way around. But after testing this principle, this didn’t work out, so the idea was altered a little bit. The caps are now still put on a bracket, but this bracket is mounted on top of a motor. The caps will now be rotated instead of the valve. The robot arm picks up the valve and rotates it to the desired angle and position of the first bracket. After that it pushed down a little bit, and the motor starts spinning. When the cap is screwed on around two turns the valve (and cap) will be lifted out the bracket and will be moved and rotated to the next position and continuous the steps again until everything is mounted on the valve. \
+\
+There are three items which have to be grabbed by the gripper, a small metal part, a larger metal part, and the body of the valve. They all differ in sizes, because the diameter is different. This was a problem, as the gripper works on air, it has two positions, just open or closed, nothing in between. The best solution is to use a gripper which can also be opened and closed on other desired positions, but for now this was not possible. So therefore a second set of gripper adapters have to be used to grab the two loose metal parts. This requires a tool change. If another type of gripper could be used, this tool change wouldn’t be needed. For example a linear actuator one (which works with a motor). The decision to design an adaptor which slides over the existing 3D printed gripper arms is made because of three different reasons. First, this way is costs less filament to actually print the parts, but this is just a small reason. The second one is that a tool change will be faster, you just slide off and on the new adapters. The third reason is that the M3 screws that are on the gripper actuator still have to be accessible, otherwise the gripper arms cannot be removed.  With more testing time another gripper could have be designed, but the design and gripper were only known for a short time before. \
+\
+•	Wooden plate \
+Al of the parts are attached to a wooden plate using either screws or glue. \
+\
+•   Storage plates \
+The small brass ring and cylinder is stored on a storage plate. This has fingers on it with chamfered edges to centre the parts on them. \
+The fingers for the ring are a couple of centimers up so that the robot can easily pick them up. The cylinder is tall enough so for that part this wasnt necesarry. \
+
+Improvements: \
+The motor box and its parts \
+1.	We recommend attaching the motors using screws for a more sturdy and secure attachment. \
+2.	The motor box currently has 3 walls and 1 open section. We recommend to have 2 open ends at the front and back because with the current system it is very difficult to wire the motors and attach the pusher. When changing this structural strength has to be carefully looked at. \
+3.	The attachments pieces are made only of TPU plastic. This plastic is pretty slippery. For improving the speed of the system, rubber should be added to the attachment pieces. When this is done you can probably test the system which motors that have a much higher RPM. \
+\
+The storage bride \
+1.	The storage bridge is currently attached to the wooden plate using glue. The bridge should be altered so that it is attached to the plate using screws. \
+2.	The storage tubes are also attached to the bridge using glue. This should definitely be changed since the parts are heavy. We recommend using nuts and bolts for the most secure attachment. \
 The air cylinder \
 1.	In the future we recommend using a double acting cylinder, because then you can program the timings of closing the cylinder using the program. Currently we are stuck with a duration of about 8 seconds before it retracts. \
 2.	Using a better throttle valve. The current throttle valve doesn’t limit the speed enough. The air cylinder is still too fast which isn’t very save for the operator and also can lead to breakage pretty easily. \
@@ -46,4 +58,3 @@ The air cylinder \
 \
 The robot & gripper \
 1.	using an electric gripper. The current gripper is pneumatic, this means that it can only open and close. Because of this we needed to separate grippers to be able to pick up the parts we wanted to pick up. When using an electric gripper you can determine how much the gripper opens and closes, so you would only need 1 gripper.  \
-\

@@ -6,13 +6,13 @@ hja;kldjf;alsdjf
 ```plantuml
 @startuml bert_and_ernie
 
-PLC->Sensor : ligt er een onderdeel?
-Sensor->PLC : ja
-PLC->RoodLampje : Ga aan
-PLC->ABB : start programma
-ABB->PLC : programma gestart
-ABB->PLC : programma succesvol afgerond
-PLC->RoodLampje : ga uit
+participant PLC as plc
+participant Robot as robot
+
+plc -> robot : start
+robot -> plc : start motoren
+robot -> plc : stop motoren
+robot -> plc : programma klaar
 
 @enduml
 ```
