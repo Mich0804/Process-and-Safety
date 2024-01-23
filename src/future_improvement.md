@@ -18,6 +18,23 @@
     
     If a vision system is added to the assembly, a computer algorithm can be taught when the robot can continue with the assembly process. For an optimal working process of a vision system, multiple components need to be in tune with each other. These vision components are lenses, camera, lighting and filters. Besides these components the setup needs to be calibrated and aligned to accurately account for any discrepancies. Besides the setup of the vision system, also the software needs to be in line with the process. Object recognition and tracking needs to be taught to extract the data of the different components. All of these vision components can be expensive and can take up some time to test and implement. The decision to implement a vision system can be made through a cost-benefit-analysis.
 
+**The motor box and its parts** \
+1.	We recommend attaching the motors using screws for a more sturdy and secure attachment. \
+2.	The motor box currently has 3 walls and 1 open section. We recommend to have 2 open ends at the front and back because with the current system it is very difficult to wire the motors and attach the pusher. When changing this structural strength has to be carefully looked at. \
+3.	The attachments pieces are made only of TPU plastic. This plastic is pretty slippery. For improving the speed of the system, rubber should be added to the attachment pieces. When this is done you can probably test the system which motors that have a much higher RPM. \
+\
+**The storage bride** \
+1.	The storage bridge is currently attached to the wooden plate using glue. The bridge should be altered so that it is attached to the plate using screws. \
+2.	The storage tubes are also attached to the bridge using glue. This should definitely be changed since the parts are heavy. We recommend using nuts and bolts for the most secure attachment. \
+
+**The air cylinder** \
+1.	In the future we recommend using a double acting cylinder, because then you can program the timings of closing the cylinder using the program. Currently we are stuck with a duration of about 8 seconds before it retracts. \
+2.	Using a better throttle valve. The current throttle valve doesn’t limit the speed enough. The air cylinder is still too fast which isn’t very save for the operator and also can lead to breakage pretty easily. \
+3.	Using an air cylinder with a longer stroke length. The current air cylinder has a stroke length of 50 mm because of this there isn’t much clearance between the storage tubes and the robot. We recommend using an air cylinder with at least double the stroke length to prevent collisions. \
+\
+
+**The robot & gripper** \
+1.	using an electric gripper. The current gripper is pneumatic, this means that it can only open and close. Because of this we needed to separate grippers to be able to pick up the parts we wanted to pick up. When using an electric gripper you can determine how much the gripper opens and closes, so you would only need 1 gripper.  \
    
 
 ## **Safety measurements:**
