@@ -41,20 +41,3 @@ Al of the parts are attached to a wooden plate using either screws or glue. \
 •   Storage plates \
 The small brass ring and cylinder is stored on a storage plate. This has fingers on it with chamfered edges to centre the parts on them. \
 The fingers for the ring are a couple of centimers up so that the robot can easily pick them up. The cylinder is tall enough so for that part this wasnt necesarry. \
-
-Improvements: \
-The motor box and its parts \
-1.	We recommend attaching the motors using screws for a more sturdy and secure attachment. \
-2.	The motor box currently has 3 walls and 1 open section. We recommend to have 2 open ends at the front and back because with the current system it is very difficult to wire the motors and attach the pusher. When changing this structural strength has to be carefully looked at. \
-3.	The attachments pieces are made only of TPU plastic. This plastic is pretty slippery. For improving the speed of the system, rubber should be added to the attachment pieces. When this is done you can probably test the system which motors that have a much higher RPM. \
-\
-The storage bride \
-1.	The storage bridge is currently attached to the wooden plate using glue. The bridge should be altered so that it is attached to the plate using screws. \
-2.	The storage tubes are also attached to the bridge using glue. This should definitely be changed since the parts are heavy. We recommend using nuts and bolts for the most secure attachment. \
-The air cylinder \
-1.	In the future we recommend using a double acting cylinder, because then you can program the timings of closing the cylinder using the program. Currently we are stuck with a duration of about 8 seconds before it retracts. \
-2.	Using a better throttle valve. The current throttle valve doesn’t limit the speed enough. The air cylinder is still too fast which isn’t very save for the operator and also can lead to breakage pretty easily. \
-3.	Using an air cylinder with a longer stroke length. The current air cylinder has a stroke length of 50 mm because of this there isn’t much clearance between the storage tubes and the robot. We recommend using an air cylinder with at least double the stroke length to prevent collisions. \
-\
-The robot & gripper \
-1.	using an electric gripper. The current gripper is pneumatic, this means that it can only open and close. Because of this we needed to separate grippers to be able to pick up the parts we wanted to pick up. When using an electric gripper you can determine how much the gripper opens and closes, so you would only need 1 gripper.  \
