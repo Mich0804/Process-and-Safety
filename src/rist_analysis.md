@@ -1,6 +1,6 @@
 # Risk analysis
 
-The risk analysis is based on the SICK Whitepaper provided by the company. This guideline indicates the risks of different componements like mechanical, electrical, operator and software.
+The risk analysis is based on the SICK Whitepaper provided by the company. This guideline indicates the risks of different componements like mechanical, electrical, operator and software. Possible adaptations due to an increased risk index will be discussed in the chapter future improvements. 
 
 ```plantuml
 @startuml
