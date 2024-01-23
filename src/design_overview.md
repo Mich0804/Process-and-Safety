@@ -1,5 +1,6 @@
 # Design overview
 
+#### Opstelling
 ![Opstelling](opstelling.jpeg)
 
 The setup consists of three motors with holders on top. In these, three of the different components can be placed. \
@@ -9,5 +10,6 @@ Next, the robot will pick up the two smaller parts from a storage plate (see ima
 \
 In the files of the repository there is also a setupvideo.MOV file. This is a video that show the working of the loading system. \
 \
+#### Opslag plaat
 ![Opslag plaat](opslagplaat.jpg)
 
