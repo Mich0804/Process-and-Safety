@@ -23,9 +23,18 @@ The air cylinder is a single-acting cylinder from Rexroth. It pushes the motor b
 The air cylinder has a threaded shaft. First the pusher was attached with a 3d printed thread this was later changed to a 3d printed pusher with a metal nut inside of it because the 3d printed thread could brake easily because of the force of the air cylinder. 
 •	The robot
 o	The grippers
-The robot and the grippers are used to pick up the main body of the valve and also to pick up the small ring and cylinder of the valve. The ring and cylinder are delivered to the robot using a storage plate which has chamfered cylinders, so that when the rings and cylinders are placed on top it is always centered. 
+As a group we came up with the idea to use a gripper which is mounted on the head of the robot to pick up the little parts, but more important also pick up the valve itself without all the parts which have to be screwed on. The idea was to clamp the valve inside the gripper with designed brackets which slides on the provided gripper and fit tight around the valve, so when the gripper is closed it is fixated. The original idea was to put all the caps which have to be screwed on in a bracket where the robot moves toward and after that the head of the robot should be rotated and moved down a little bit, so the valve will screw itself on the cap, instead of the other way around. But after testing this principle, this didn’t work out, so the idea was altered a little bit. The caps are now still put on a bracket, but this bracket is mounted on top of a motor. The caps will now be rotated instead of the valve. The robot arm picks up the valve and rotates it to the desired angle and position of the first bracket. After that it pushed down a little bit, and the motor starts spinning. When the cap is screwed on around two turns the valve (and cap) will be lifted out the bracket and will be moved and rotated to the next position and continuous the steps again until everything is mounted on the valve. 
+
+There are three items which have to be grabbed by the gripper, a small metal part, a larger metal part, and the body of the valve. They all differ in sizes, because the diameter is different. This was a problem, as the gripper works on air, it has two positions, just open or closed, nothing in between. The best solution is to use a gripper which can also be opened and closed on other desired positions, but for now this was not possible. So therefore a second set of gripper adapters have to be used to grab the two loose metal parts. This requires a tool change. If another type of gripper could be used, this tool change wouldn’t be needed. For example a linear actuator one (which works with a motor). The decision to design an adaptor which slides over the existing 3D printed gripper arms is made because of three different reasons. First, this way is costs less filament to actually print the parts, but this is just a small reason. The second one is that a tool change will be faster, you just slide off and on the new adapters. The third reason is that the M3 screws that are on the gripper actuator still have to be accessible, otherwise the gripper arms cannot be removed.  With more testing time another gripper could have be designed, but the design and gripper were only known for a short time before.
 •	Wooden plate
 Al of the parts are attached to a wooden plate using either screws or glue. 
+
+•   Storage plates
+The small brass ring and cylinder is stored on a storage plate. This has fingers on it with chamfered edges to centre the parts on them.
+The fingers for the ring are a couple of centimers up so that the robot can easily pick them up. The cylinder is tall enough so for that part this wasnt necesarry.
+
+
+
 Improvements:
 The motor box and its parts
 1.	We recommend attaching the motors using screws for a more sturdy and secure attachment. 
