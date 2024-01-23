@@ -3,7 +3,7 @@
  **Introduction:**
    The assignment is a crucial part of the "Process and Safety" course within the minor Industrial Automation. It involves implementing a solution for valve assembly. The task includes analyzing, documenting, and implementing an assembly process, requiring the construction of an assembly jig, PLC programming, and communication with an ABB robot. The application of knowledge on electrical components, drawings, risk assessment, safety, and process definition is essential.
 
- **requirements** 
+ **Requirements** 
  
 1. **Valve Assembly Process:**
    - The system should be capable of assembling a valve used in central heating systems or gas lines from its individual parts to a complete product.
